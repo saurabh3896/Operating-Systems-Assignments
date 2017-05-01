@@ -1,0 +1,5 @@
+#!/bin/bash
+for _ in {15..45..10}; do
+    ./unbounded $(($_));
+    echo "Execution done";
+done

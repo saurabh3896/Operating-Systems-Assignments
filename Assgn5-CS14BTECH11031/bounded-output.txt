@@ -1,0 +1,162 @@
+Bounded Waiting Time lock output : 
+
+1th	CS Request at	16:34:10 by thread 1 (tid - 32535)
+1th	CS Entry at	16:34:10 by thread 1 (tid - 32535)
+1th	CS Exit at	16:34:10 by thread 1 (tid - 32535)
+
+1th	CS Request at	16:34:10 by thread 4 (tid - 32538)
+1th	CS Entry at	16:34:10 by thread 4 (tid - 32538)
+1th	CS Exit at	16:34:10 by thread 4 (tid - 32538)
+
+2th	CS Request at	16:34:10 by thread 1 (tid - 32535)
+2th	CS Entry at	16:34:10 by thread 1 (tid - 32535)
+2th	CS Exit at	16:34:10 by thread 1 (tid - 32535)
+
+2th	CS Request at	16:34:10 by thread 4 (tid - 32538)
+2th	CS Entry at	16:34:10 by thread 4 (tid - 32538)
+2th	CS Exit at	16:34:10 by thread 4 (tid - 32538)
+
+1th	CS Request at	16:34:10 by thread 2 (tid - 32536)
+1th	CS Entry at	16:34:10 by thread 2 (tid - 32536)
+1th	CS Exit at	16:34:10 by thread 2 (tid - 32536)
+
+1th	CS Request at	16:34:10 by thread 3 (tid - 32537)
+1th	CS Entry at	16:34:10 by thread 3 (tid - 32537)
+1th	CS Exit at	16:34:10 by thread 3 (tid - 32537)
+
+3th	CS Request at	16:34:10 by thread 1 (tid - 32535)
+3th	CS Entry at	16:34:10 by thread 1 (tid - 32535)
+3th	CS Exit at	16:34:14 by thread 1 (tid - 32535)
+
+2th	CS Request at	16:34:11 by thread 2 (tid - 32536)
+2th	CS Entry at	16:34:14 by thread 2 (tid - 32536)
+2th	CS Exit at	16:34:15 by thread 2 (tid - 32536)
+
+2th	CS Request at	16:34:11 by thread 3 (tid - 32537)
+2th	CS Entry at	16:34:15 by thread 3 (tid - 32537)
+2th	CS Exit at	16:34:17 by thread 3 (tid - 32537)
+
+3th	CS Request at	16:34:10 by thread 4 (tid - 32538)
+3th	CS Entry at	16:34:17 by thread 4 (tid - 32538)
+3th	CS Exit at	16:34:18 by thread 4 (tid - 32538)
+
+4th	CS Request at	16:34:15 by thread 1 (tid - 32535)
+4th	CS Entry at	16:34:18 by thread 1 (tid - 32535)
+4th	CS Exit at	16:34:19 by thread 1 (tid - 32535)
+
+3th	CS Request at	16:34:15 by thread 2 (tid - 32536)
+3th	CS Entry at	16:34:19 by thread 2 (tid - 32536)
+3th	CS Exit at	16:34:21 by thread 2 (tid - 32536)
+
+3th	CS Request at	16:34:17 by thread 3 (tid - 32537)
+3th	CS Entry at	16:34:21 by thread 3 (tid - 32537)
+3th	CS Exit at	16:34:21 by thread 3 (tid - 32537)
+
+4th	CS Request at	16:34:18 by thread 4 (tid - 32538)
+4th	CS Entry at	16:34:21 by thread 4 (tid - 32538)
+4th	CS Exit at	16:34:21 by thread 4 (tid - 32538)
+
+5th	CS Request at	16:34:19 by thread 1 (tid - 32535)
+5th	CS Entry at	16:34:21 by thread 1 (tid - 32535)
+5th	CS Exit at	16:34:22 by thread 1 (tid - 32535)
+
+4th	CS Request at	16:34:21 by thread 2 (tid - 32536)
+4th	CS Entry at	16:34:22 by thread 2 (tid - 32536)
+4th	CS Exit at	16:34:23 by thread 2 (tid - 32536)
+
+4th	CS Request at	16:34:21 by thread 3 (tid - 32537)
+4th	CS Entry at	16:34:23 by thread 3 (tid - 32537)
+4th	CS Exit at	16:34:24 by thread 3 (tid - 32537)
+
+5th	CS Request at	16:34:21 by thread 4 (tid - 32538)
+5th	CS Entry at	16:34:24 by thread 4 (tid - 32538)
+5th	CS Exit at	16:34:24 by thread 4 (tid - 32538)
+
+5th	CS Request at	16:34:24 by thread 3 (tid - 32537)
+5th	CS Entry at	16:34:25 by thread 3 (tid - 32537)
+5th	CS Exit at	16:34:25 by thread 3 (tid - 32537)
+
+6th	CS Request at	16:34:24 by thread 4 (tid - 32538)
+6th	CS Entry at	16:34:25 by thread 4 (tid - 32538)
+6th	CS Exit at	16:34:25 by thread 4 (tid - 32538)
+
+5th	CS Request at	16:34:23 by thread 2 (tid - 32536)
+5th	CS Entry at	16:34:25 by thread 2 (tid - 32536)
+5th	CS Exit at	16:34:25 by thread 2 (tid - 32536)
+
+6th	CS Request at	16:34:25 by thread 3 (tid - 32537)
+6th	CS Entry at	16:34:25 by thread 3 (tid - 32537)
+6th	CS Exit at	16:34:27 by thread 3 (tid - 32537)
+
+7th	CS Request at	16:34:25 by thread 4 (tid - 32538)
+7th	CS Entry at	16:34:27 by thread 4 (tid - 32538)
+7th	CS Exit at	16:34:27 by thread 4 (tid - 32538)
+
+6th	CS Request at	16:34:27 by thread 2 (tid - 32536)
+6th	CS Entry at	16:34:27 by thread 2 (tid - 32536)
+6th	CS Exit at	16:34:27 by thread 2 (tid - 32536)
+
+8th	CS Request at	16:34:27 by thread 4 (tid - 32538)
+8th	CS Entry at	16:34:27 by thread 4 (tid - 32538)
+8th	CS Exit at	16:34:27 by thread 4 (tid - 32538)
+
+6th	CS Request at	16:34:22 by thread 1 (tid - 32535)
+6th	CS Entry at	16:34:24 by thread 1 (tid - 32535)
+6th	CS Exit at	16:34:25 by thread 1 (tid - 32535)
+
+7th	CS Request at	16:34:27 by thread 3 (tid - 32537)
+7th	CS Entry at	16:34:27 by thread 3 (tid - 32537)
+7th	CS Exit at	16:34:27 by thread 3 (tid - 32537)
+
+7th	CS Request at	16:34:27 by thread 2 (tid - 32536)
+7th	CS Entry at	16:34:27 by thread 2 (tid - 32536)
+7th	CS Exit at	16:34:28 by thread 2 (tid - 32536)
+
+8th	CS Request at	16:34:28 by thread 3 (tid - 32537)
+8th	CS Entry at	16:34:28 by thread 3 (tid - 32537)
+8th	CS Exit at	16:34:28 by thread 3 (tid - 32537)
+
+9th	CS Request at	16:34:27 by thread 4 (tid - 32538)
+9th	CS Entry at	16:34:28 by thread 4 (tid - 32538)
+9th	CS Exit at	16:34:28 by thread 4 (tid - 32538)
+
+8th	CS Request at	16:34:28 by thread 2 (tid - 32536)
+8th	CS Entry at	16:34:31 by thread 2 (tid - 32536)
+8th	CS Exit at	16:34:31 by thread 2 (tid - 32536)
+
+10th	CS Request at	16:34:28 by thread 4 (tid - 32538)
+10th	CS Entry at	16:34:31 by thread 4 (tid - 32538)
+10th	CS Exit at	16:34:31 by thread 4 (tid - 32538)
+
+9th	CS Request at	16:34:31 by thread 2 (tid - 32536)
+9th	CS Entry at	16:34:31 by thread 2 (tid - 32536)
+9th	CS Exit at	16:34:31 by thread 2 (tid - 32536)
+
+7th	CS Request at	16:34:28 by thread 1 (tid - 32535)
+7th	CS Entry at	16:34:28 by thread 1 (tid - 32535)
+7th	CS Exit at	16:34:31 by thread 1 (tid - 32535)
+
+9th	CS Request at	16:34:28 by thread 3 (tid - 32537)
+9th	CS Entry at	16:34:31 by thread 3 (tid - 32537)
+9th	CS Exit at	16:34:31 by thread 3 (tid - 32537)
+
+10th	CS Request at	16:34:31 by thread 2 (tid - 32536)
+10th	CS Entry at	16:34:31 by thread 2 (tid - 32536)
+10th	CS Exit at	16:34:32 by thread 2 (tid - 32536)
+
+10th	CS Request at	16:34:32 by thread 3 (tid - 32537)
+10th	CS Entry at	16:34:32 by thread 3 (tid - 32537)
+10th	CS Exit at	16:34:32 by thread 3 (tid - 32537)
+
+8th	CS Request at	16:34:32 by thread 1 (tid - 32535)
+8th	CS Entry at	16:34:32 by thread 1 (tid - 32535)
+8th	CS Exit at	16:34:32 by thread 1 (tid - 32535)
+
+9th	CS Request at	16:34:32 by thread 1 (tid - 32535)
+9th	CS Entry at	16:34:32 by thread 1 (tid - 32535)
+9th	CS Exit at	16:34:32 by thread 1 (tid - 32535)
+
+10th	CS Request at	16:34:32 by thread 1 (tid - 32535)
+10th	CS Entry at	16:34:32 by thread 1 (tid - 32535)
+10th	CS Exit at	16:34:32 by thread 1 (tid - 32535)
+

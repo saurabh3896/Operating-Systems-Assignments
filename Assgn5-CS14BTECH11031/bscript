@@ -1,0 +1,6 @@
+#!/bin/bash
+for _ in {15..45..10}; do
+    #get = $(($_*10))
+    ./bounded $(($_));
+    echo "Execution done";
+done
